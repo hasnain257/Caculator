@@ -106,7 +106,7 @@ st.markdown('<h2 style="color:black; text-align:center; margin-bottom:20px;  fon
 # Murqee at the end
 st.markdown('''
 <marquee behavior="scroll" direction="left" style="color:#ffd700;  font-weight:bold; font-size:20px; margin-top:15px;">
-🎉 Welcome to Hasnain\'s Premium Calculator! 🎉
+🎉 Welcome to Hasnain\'s Stylish Calculator! 🎉
 </marquee>
 ''', unsafe_allow_html=True)
 # Display Current Expression
