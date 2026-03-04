@@ -123,7 +123,7 @@ c1, c2, c3, c4 = st.columns(4)
 c1.button("4", on_click=add_val, args=("4",))
 c2.button("5", on_click=add_val, args=("5",))
 c3.button("6", on_click=add_val, args=("6",))
-c4.button("✖", on_click=add_val, args=("*"))
+c4.button("✖️", on_click=add_val, args=("*"))
 
 # Row 3
 c1, c2, c3, c4 = st.columns(4)
