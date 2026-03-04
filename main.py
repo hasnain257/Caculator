@@ -130,7 +130,7 @@ c1, c2, c3, c4 = st.columns(4)
 c1.button("1", on_click=add_val, args=("1",))
 c2.button("2", on_click=add_val, args=("2",))
 c3.button("3", on_click=add_val, args=("3",))
-c4.button("—", on_click=add_val, args=("-"))
+c4.button("➖", on_click=add_val, args=("-"))
 
 # Row 4
 c1, c2, c3, c4 = st.columns(4)
@@ -140,6 +140,6 @@ c3.button(".", on_click=add_val, args=("."))
 c4.button("➕", on_click=add_val, args=("+"))
 
 # Equal
-st.button("=", on_click=calc, use_container_width=True, type="primary")
+st.button("🟩=🟩", on_click=calc, use_container_width=True, type="primary")
 
 st.markdown('</div>', unsafe_allow_html=True)
