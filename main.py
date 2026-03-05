@@ -106,7 +106,7 @@ st.button("🟩=🟩", on_click=calc, use_container_width=True, type="primary")
 # Welcome Marquee
 st.markdown('''
 <marquee behavior="scroll" direction="left" style="color:#ffd700; font-weight:bold; font-size:20px; margin-top:15px;">
-🎉 Welcome to Hasnain's Premium Calculator! 🥳😄😀 🎉
+🎉Thank you for visiting! 🥳😄😀 🎉
 </marquee>
 ''', unsafe_allow_html=True)
 
